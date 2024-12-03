@@ -11,7 +11,7 @@ from utils.file_utils import FileUtils
 def main():
 
     global lines 
-    lines = FileUtils.read_file_as_lines("/home/sam/Desktop/AdventOfCode/2024/input/Day1")
+    lines = FileUtils.read_file_as_lines(f"{project_root}/input/Day1")
 
     PartA()
     PartB()
